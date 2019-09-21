@@ -228,8 +228,13 @@ footer ul small {
   border-radius: 12px;
 }
 
-.CV a .CV a:hover {
+.CV a {
     color: white;
+}
+
+.CV a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .CV button:hover {
