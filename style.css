@@ -44,9 +44,14 @@ nav div, footer ul {
     padding: 10px;
 }
 
-nav div div {
-    padding-left: 20px;
-    padding-right: 20px;
+.navbar-nav {
+    padding: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  nav div {
+    margin-left: auto;
+  }
 }
 
 nav div div button {
@@ -54,7 +59,8 @@ nav div div button {
     background-color: #f1f1f1;
     font-weight: bold;
     color: #999;
-    padding-left: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 footer ul li {
@@ -293,3 +299,5 @@ footer ul small {
   height: 105px;
   visibility: hidden;
 }
+
+
